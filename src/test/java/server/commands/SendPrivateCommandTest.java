@@ -16,6 +16,7 @@ import static org.mockito.Mockito.*;
 
 public class SendPrivateCommandTest {
 
+    // REVIEW: again missing the access modifiers.
     @Mock
     Client client;
 

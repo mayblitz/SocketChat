@@ -6,6 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.regex.Pattern;
 
+// REVIEW: public classes should be documented.
 public class ReadHandler implements Runnable {
     private static final String ANSI_RESET = "\u001B[0m";
     private static final String ANSI_PURPLE = "\u001B[35m";

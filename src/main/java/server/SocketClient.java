@@ -6,6 +6,7 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Set;
 
+// REVIEW: document!
 public class SocketClient implements Runnable, Client {
     private Socket socket;
     private Server server;

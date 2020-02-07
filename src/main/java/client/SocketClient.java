@@ -5,6 +5,7 @@ import client.interfaces.Connectable;
 import java.io.*;
 import java.net.Socket;
 
+// REVIEW: public classes should be documented.
 public class SocketClient implements Closeable, Connectable {
     private String address;
     private int port;

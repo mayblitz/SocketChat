@@ -4,6 +4,7 @@ import server.interfaces.*;
 
 import java.util.Set;
 
+// REVIEW: public classes should be documented.
 public final class ChangeNameCommand implements Command {
     private Set<Client> clients;
     private Client sender;

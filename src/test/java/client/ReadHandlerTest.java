@@ -17,9 +17,11 @@ import java.io.PrintStream;
 public class ReadHandlerTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
+    // REVIEW: again missing the access modifiers.
     @Mock
     Connectable client;
 
+    // REVIEW: again missing the access modifiers.
     @Mock
     BufferedReader reader;
 

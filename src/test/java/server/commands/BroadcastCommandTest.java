@@ -12,6 +12,8 @@ import java.util.HashSet;
 
 public class BroadcastCommandTest {
 
+    // REVIEW: why is this declares as a member variable? Also why is it missing an access modifier?
+    // I ask a lot of question, don't I?
     String actual;
 
     @Test
@@ -25,6 +27,7 @@ public class BroadcastCommandTest {
             return null;
         }).when(client).sendMessage(any());
 
+        // REVIEW: So what's wrong here?
         HashSet<Client> set = new HashSet<>();
         set.add(client);
 

@@ -16,6 +16,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MessageHandlerTest {
 
+    // REVIEW: missing the access modifiers.
     AtomicBoolean hasSuccessfullyFinished;
 
     @Mock

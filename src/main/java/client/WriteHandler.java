@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+// REVIEW: public classes should be documented!
 public class WriteHandler implements Runnable {
     private PrintWriter writer;
     private Closeable client;

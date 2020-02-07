@@ -15,12 +15,14 @@ import static org.mockito.Mockito.*;
 
 public class ChangeNameCommandTest {
 
+    // REVIEW: where are the access modifier here? The white beast ate 'em?
     @Mock
     Client client;
 
     @Mock
     Client sender;
 
+    // private final static... etc. Have you ever heard of those? ;)
     String actual;
 
     @BeforeEach

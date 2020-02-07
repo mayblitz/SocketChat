@@ -14,9 +14,11 @@ import static org.mockito.Mockito.*;
 
 public class WriteHandlerTest {
 
+    // REVIEW: again missing the access modifiers.
     @Mock
     Closeable client;
 
+    // REVIEW: again missing the access modifiers.
     @Mock
     PrintWriter writer;
 
